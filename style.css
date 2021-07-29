@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  body {
+    background-color: #6df0c2;
+  }
+  
+  .keyboard {
+    display: flex;
+    min-width: 432px;
+    margin: 10px 0px;
+  }
+  
+  .white-key {
+    width: 36px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 0 0 5% 5%;
+    background-color: white;
+  }
+  
+  .black-key {
+    width: 28px;
+    height: 120px;
+    border-radius: 5%;
+    background-color: black;
+    margin-left: -14px;
+    margin-right: -14px;
+    z-index: 1;
+  }
+  
+  .on {
+    background-color: #6400e4;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    background-color: #efd9ca;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    display: inline-block;
+  }
+  
+  .button:active {
+    background-color: gray;
+  }
